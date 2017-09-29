@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
   end
 end
 
-def holidays_with_bbqs(holiday_supplies)
+def all_holidays_with_bbqs(holiday_supplies)
   array = []
   holiday_supplies.each do |season, holiday|
     holiday.each do |name, supplies|
